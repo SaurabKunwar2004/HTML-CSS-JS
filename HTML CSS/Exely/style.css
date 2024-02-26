@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* nav start */
@@ -13,17 +13,17 @@ body {
 .navagation-bar{
     height: 80px;
     width: 1472px;
-    /* width: 1500px; */
     background-color: white;
     display: flex;
-    margin: 0 12px;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 
 
 .logo-div {
-    height: 80px;
+    /* height: 80px; */
     width: 780px;
     display: flex;
     align-items: center;
@@ -139,6 +139,7 @@ body {
 /* MAIN BODY SECTION START */
 .main-body {
     background-color: #eeecf4;
+    padding-top: 80px;
 }
 
 
@@ -348,11 +349,17 @@ body {
 }
 
 .tech{
-    width: 100%;
+    width: 1472px;
     height: 24px;
     margin-bottom: 8px;
     text-align: center;
 }
+
+ .tech p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #54455e;
+ }
 
 .partner {
     width: 100%;
@@ -1304,6 +1311,11 @@ row-gap: 30px;
 
 
 
+
+
+
+
+
 /* MEDIA QUERIES START*/
 
 
@@ -1338,6 +1350,7 @@ row-gap: 30px;
         margin: 0;
         width: 1443px;
         padding: 0 16px;
+        /* position: fixed; */
     }
 
     .navagation-bar .logo-div {
@@ -1620,6 +1633,14 @@ row-gap: 30px;
 }
 
 
+@media (max-width:1428px) {
+    
+    .partner {
+        width: 1400px;
+    }
+    
+}
+
 @media (max-width:1380px) {
     .partner .nine {
         display: none;
@@ -1725,19 +1746,18 @@ row-gap: 30px;
     .tech-partner {
         width: 500px;
     }
-    .partner {
-        /* width: 500px; */
-    }   
 }
 
 
-/* @media (max-width:1477px) {
+@media (max-width:1477px) {
     
     .about-us , .ATexely-section ,.Hotel-success ,.sec-success , .hotel-wins , .quality-partner ,
     .EXperience-section , .success-story , .footpanel-one , .footpanel-two {
         display: none;
     }
-} */
+}
+
+
 
 
 /* MEDIA QUERIES END*/
