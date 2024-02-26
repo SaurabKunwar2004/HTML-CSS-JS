@@ -16,9 +16,11 @@ body {
     /* width: 1500px; */
     background-color: white;
     display: flex;
-    margin: 0 0.400px;
+    margin: 0 12px;
     align-items: center;
 }
+
+
 
 .logo-div {
     height: 80px;
@@ -125,6 +127,11 @@ body {
     background-color: #ec3d02;
 }
 
+
+.navagation-bar .menu-icon {
+    display: none;
+}
+
 /* nav end */
 
 
@@ -181,9 +188,9 @@ body {
 /* MAIN ITEMS TWO START */
 
 .main-items-two{
+    /* width: 1472px; */
     padding: 64px 16px 0;
     display: flex;
-    /* position: relative; */
 }
 
 
@@ -758,7 +765,7 @@ font-size: 17px;
 /* HOTEL WINS START */
 
 .hotel-wins {
-    width: 100%;
+    width: 1472px;
     height: 400px;
     background-color: #4d1774;
     position: relative;
@@ -934,6 +941,7 @@ row-gap: 30px;
 
 /* ecperience section start */
 .EXperience-section {
+    width: 1440px;
     height: 407.013px;
     padding: 80px 16px;
     display: flex;
@@ -1299,14 +1307,437 @@ row-gap: 30px;
 /* MEDIA QUERIES START*/
 
 
+@media (max-width:1443px){
+    .navagation-bar .login {
+        display: none;
+    }
+
+
+    .navagation-bar .menu {
+        display: none;
+    }
+
+    .navagation-bar .menu-icon {
+        display: block;
+        font-size:30px;
+        position: absolute;
+        right: 0;
+    }
+
+    .navagation-bar .btns {
+        height: 80px;
+        width: 150px;
+        padding: 0;
+        position: absolute;
+        right: 45px;
+        height: 53px;
+    }
+
+    .navagation-bar {
+        height: 53px;
+        margin: 0;
+        width: 1443px;
+        padding: 0 16px;
+    }
+
+    .navagation-bar .logo-div {
+        height: 53px;
+        padding-left: 0;
+    }
+
+}
+
+
+@media (max-width:1443px){
+    .figure {
+        display: none;
+    }
+
+    .maintwo-items {
+        width: 1400px;
+        height: 273px;
+    }
+
+    .boxx {
+        width: 600px;
+        height: 273px;
+    }
+
+    .boxx .para p {
+        font-size: 22px;
+    }
+
+    .maintwo-items .box3, .box4 {
+        display: none;
+    }
+
+    .tech-partner {
+        width: 1400px;
+    }
+
+}
 
 
 
+@media (max-width: 1400px) and (min-width: 1330px) {
+        
+    .direct-drive {
+        justify-content: center;
+        margin: 0 189px;
+    }
+   
+}
 
 
+@media (max-width: 1330px) and (min-width: 1136px) {
+        
+    .direct-drive {
+        justify-content: center;
+        margin: 0 89px;
+    }
+}
+
+@media (max-width: 1136px) and (min-width: 1021px) {
+        
+    .direct-drive {
+        justify-content: center;
+        margin: 0 28px;
+    }
+}
 
 
+@media (max-width:1028px) {
+    .direct-drive {
+        margin: 0;
+       padding-left: 0;
+    }
 
+     .dir {
+        font-size:18px;
+        text-align: center;
+    }
+
+    .Ded {
+        font-size: 22px;
+    }
+
+}
+
+
+@media (max-width:929px) {
+    .direct-drive {
+        margin: 0;
+       padding-left: 0;
+       width: 869px;
+    }
+
+
+    .dir {
+        font-size:16px;
+        text-align: center;
+    }
+
+    .Ded {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:850px) {
+
+    .direct-drive {
+        margin: 0;
+       padding-left: 0;
+       width: 500px;
+    }
+
+    .main-items-one {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:1380px) and (min-width:1130px) {
+        .maintwo-items {
+            width: 1350px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .boxx {
+            width: 550px;
+            height: 263px;
+        }
+   
+}
+
+
+@media (max-width:1280px) and (min-width:930px){
+
+    .maintwo-items {
+        width: 1250px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .boxx {
+        width: 450px;
+        height: 243px;
+    }
+
+    .boxx .para  p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:1088px) {
+
+    .maintwo-items {
+        width: 1050px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .boxx {
+        width: 800px;
+        height: 243px;
+    }
+
+    .boxx .para  p{
+        font-size: 28px;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width:1087px) {
+
+
+    .maintwo-items {
+        width: 980px;
+        padding: 0;
+    }
+
+    .box1-items .hed {
+        font: 48px;
+    }
+
+    .boxx {
+        width: 800px;
+        height: 253px;
+    }
+}
+
+
+@media (max-width:904px) {
+
+    .main-items-two{
+        width: 700px;
+    }
+
+    .boxx {
+        width: 650px;
+        height: 253px;
+    }
+}
+
+@media (max-width:904px){
+
+    .main-items-two{
+        padding: 10px 0 ;
+    }
+
+    .boxx {
+        width: 650px;
+        height: 253px;
+       margin-left: 60px;
+    }
+
+
+    .boxx .para  p{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:850px) {
+
+    .boxx {
+        width: 550px;
+        height: 300px;
+    }
+}
+
+@media (max-width:780px) {
+
+    .boxx {
+        width: 500px;
+        height: 330px;
+        margin:  0;
+    }
+}
+
+
+@media (max-width:700px) {
+
+    .boxx {
+        width: 400px;
+        height: 330px;
+      }
+}
+
+
+@media (max-width:686px){
+
+    .maintwo-items
+    {
+        width: 508px;
+       padding-left: 30px;
+    }
+    .boxx {
+        width: 420px;
+        height: 300px;
+        padding: 5px;
+      }
+
+      .boxx .para  p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:525px){
+    .maintwo-items
+    {
+        width: 400px;
+       padding-left: 30px;
+    }
+}
+
+
+@media (max-width:1380px) {
+    .partner .nine {
+        display: none;
+    }
+    
+}
+
+@media (max-width:1383px) {
+
+    .partner {
+        width: 1300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .partner .eight,.seven {
+        display: none;
+    }
+}
+
+@media (max-width:1275px) {
+
+    .tech-partner {
+        width: 1300px;
+        justify-content: center;
+    }
+    .partner {
+        width: 1200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .partner .six,.five {
+        display: none;
+    }
+
+    .tech {
+        width: 1100px;
+    }
+
+    .tech  p {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:1160px) {
+
+    .tech-partner {
+        width: 1100px;
+    }
+
+   
+    .partner .two{
+        display: none;
+    }
+}
+
+
+@media (max-width:978px) {
+
+    .tech-partner {
+        width: 1000px;
+    }
+    .partner {
+        width: 900px;
+    }
+
+    .tech {
+        width: 900px;
+    }
+}
+
+@media (max-width:840px) {
+    
+    .tech-partner {
+        width: 800px;
+    }
+    
+}
+
+@media (max-width:793px) {
+
+    .tech-partner {
+        margin-top: 50px;
+        width: 700px;
+    }
+}
+
+@media (max-width:684px) {
+    .tech-partner {
+        margin: 0;
+        width: 600px;
+    }
+
+    .partner .one{
+       display: none;
+    }
+}
+
+@media (max-width:561px) {
+
+
+    .tech-partner {
+        width: 500px;
+    }
+    .partner {
+        /* width: 500px; */
+    }   
+}
+
+
+/* @media (max-width:1477px) {
+    
+    .about-us , .ATexely-section ,.Hotel-success ,.sec-success , .hotel-wins , .quality-partner ,
+    .EXperience-section , .success-story , .footpanel-one , .footpanel-two {
+        display: none;
+    }
+} */
 
 
 /* MEDIA QUERIES END*/
