@@ -333,7 +333,7 @@ body {
     height: 653px;
     background-image: url('./images/main-two-img.webp');
     background-size: cover;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 
@@ -906,6 +906,8 @@ row-gap: 30px;
     font-size: 17px;
     padding: 0px;
     text-align: center;
+    opacity: 0.8;
+    width: 480px;
 }
 
 
@@ -940,6 +942,11 @@ row-gap: 30px;
     background-image: url('./images/unlock.svg');
     background-size: cover;
     margin-left: 20px;
+}
+
+.qbxn  {
+
+    margin-bottom: 16px;
 }
 
 /* <!-- QUALITY BUSINESS PARTNER END --> */
@@ -1750,14 +1757,14 @@ row-gap: 30px;
 }
 
 
-@media (max-width:1477px) {
+/* @media (max-width:1477px) {
     
     .about-us , .ATexely-section ,.Hotel-success ,.sec-success , .hotel-wins , .quality-partner ,
     .EXperience-section , .success-story , .footpanel-one , .footpanel-two {
         display: none;
     }
 }
-
+ */
 
 
 
