@@ -77,6 +77,37 @@ body {
     border-bottom-right-radius: 2px;
 }
 
+
+#soln:hover #submenu{
+    opacity: 1;
+}
+
+
+#submenu {
+    position: absolute;
+    left: 680px;
+    background-color: white;
+    width: 320px;  
+    opacity: 0; 
+    padding: 15px 0;
+}
+
+#submenu li {
+    list-style: none;
+    line-height: 32px;
+    font-size: 17px;
+    padding-left:20px;
+    color: #4d09ac;
+    font-weight: 600;
+    font-family: "Inria Sans", sans-serif;
+}
+
+#submenu li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .btns {
     height: 80px;
     width: 350px;
@@ -1326,7 +1357,7 @@ row-gap: 30px;
 
 /* MEDIA QUERIES START*/
 
-
+/* 
 @media (max-width:1443px){
     .navagation-bar .login {
         display: none;
@@ -1358,7 +1389,6 @@ row-gap: 30px;
         margin: 0;
         width: 1443px;
         padding: 0 16px;
-        /* position: fixed; */
     }
 
     .navagation-bar .logo-div {
@@ -1754,7 +1784,7 @@ row-gap: 30px;
     .tech-partner {
         width: 500px;
     }
-}
+} */
 
 
 /* @media (max-width:1477px) {
