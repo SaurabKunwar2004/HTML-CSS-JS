@@ -80,6 +80,7 @@ body {
 
 #soln:hover #submenu{
     opacity: 1;
+    visibility: visible;
 }
 
 
@@ -90,6 +91,7 @@ body {
     width: 320px;  
     opacity: 0; 
     padding: 15px 0;
+    visibility: hidden;
 }
 
 #submenu li {
@@ -107,6 +109,11 @@ body {
     cursor: pointer;
 }
 
+
+#icn::before{
+    content:'';
+    /* position: absolute; */
+}
 
 .btns {
     height: 80px;
